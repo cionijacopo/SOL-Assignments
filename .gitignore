@@ -1,6 +1,3 @@
 cmake-build-debug/
 Es1.dSYM/
-/.idea/
-.DS_Store
-
-**/target/
+*.out
