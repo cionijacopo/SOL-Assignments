@@ -11,7 +11,7 @@
 
 #define REALLOC_INC 16
 /*
- * Definizione della macro. Attenzione alla sintassi. 
+ * Definizione della macro. Attenzione alla sintassi.
  */
 #define rialloca(buf, newsize)                                                    \
     buf = realloc(buf, newsize);                                                  \
