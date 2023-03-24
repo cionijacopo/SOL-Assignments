@@ -1,4 +1,5 @@
 /cmake-build-debug/
-Es1.dSYM/
+*.dSYM
 *.sh
 *.bat
+*.out
