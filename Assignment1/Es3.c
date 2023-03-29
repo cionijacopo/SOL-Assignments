@@ -54,6 +54,10 @@ int main(int argc, char *argv[]) {
             switch(c) {
                 case 'n': {
                     found_n = 1;
+                    /* 
+                    Posso mettere la matrice ad argv perchè in questo modo vado a prendere
+                    la stringa e poi il carattere.
+                    */
                     if (argv[0][1] == '\0') {
                         ++argv, --argc;
                         if (argv[0] == NULL || (isNumber(argv[0], &narg)) != 0) {
