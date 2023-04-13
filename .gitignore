@@ -1,6 +1,6 @@
 /cmake-build-debug/
 *.dSYM/
-.DS_Store
+*.DS_Store/
 *.sh
 *.bat
 *.out
