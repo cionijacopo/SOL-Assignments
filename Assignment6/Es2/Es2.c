@@ -1,3 +1,7 @@
+/*
+Created by Jacopo Cioni on 14/4/2023
+Esercizio 2 - Assignment 6
+*/
 #include<unistd.h>
 #include<sys/types.h>
 #include<stdlib.h>
