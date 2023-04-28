@@ -35,7 +35,7 @@ void threadF(void *arg) {
         tmpset = set;
         int r;
         // Faccio un timeout per controllare ogni tanto la terminazione
-        struct timeval timeout = (0, 100000); // 100 milliseconds
+        struct timeval timeout = {0, 100000}; // 100 milliseconds
         // Faccio la select tra tutti i file descriptor accettati
         if((r = select(connfd+1, &tmpset, NULL, NULL, &timeout)) < 0) {
             perror("select");

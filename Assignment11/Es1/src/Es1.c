@@ -200,7 +200,7 @@ int main(int argc, char *argv[]) {
                 if(i == listenfd) {
                     // è il file descriptor del server socket
                     // C'è una nuova richiesta di connessione che posso accettare.
-                    if (connfd = accept(listenfd, (struct sockaddr*)NULL, NULL) == -1) {
+                    if ((connfd = accept(listenfd, (struct sockaddr*)NULL, NULL)) == -1) {
                         perror("accept");
                         unlink(SOCKNAME);
                         return -1;
@@ -248,7 +248,7 @@ int main(int argc, char *argv[]) {
     }
 
     // Distruggo la threadpool notificando che i thread dovranno terminare senza forzatura
-    destroyThreadPool(pool, 0;)
+    destroyThreadPool(pool, 0);
 
     // Aspetto la terminazione del thread handler per i segnali
     pthread_join(signalhandler_thread, NULL);
