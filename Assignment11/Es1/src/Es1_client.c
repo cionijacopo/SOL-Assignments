@@ -1,6 +1,6 @@
 /*
-    Created by Jacopo Cioni on 20/4/2023
-    Esercizio 2 - Assignment 9
+    Created by Jacopo Cioni on 28/4/2023
+    Esercizio 1 - Assignment 1
     Convertire la stringa da minuscola a maiuscola con un server multi-threaded.
     Questo è il client.
 */
@@ -10,8 +10,8 @@
 #include <string.h>
 #include <assert.h>
 
-#include "../includes/Connection.h"
-#include "../includes/Utils.h"
+#include "../includes/connection.h"
+#include "../includes/utils.h"
 
 int main(int argc, char *argv[]) {
     if(argc == 1) {
