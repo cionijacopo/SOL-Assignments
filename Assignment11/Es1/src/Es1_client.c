@@ -2,7 +2,7 @@
     Created by Jacopo Cioni on 28/4/2023
     Esercizio 1 - Assignment 1
     Convertire la stringa da minuscola a maiuscola con un server multi-threaded.
-    Questo è il client.
+    Questo è il client per l'esercizio 11, copiato dall'esercizio 9.
 */
 
 #include <unistd.h>
